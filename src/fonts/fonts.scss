@@ -1,0 +1,10 @@
+@import "../colors/colors.scss";
+
+@mixin fonts {
+  * {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: $default-text-color;
+  }
+}
