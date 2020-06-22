@@ -11,4 +11,20 @@
   font-family: 'MasonChronicles', serif;
   font-style: normal;
   font-weight: 500;
+  margin-bottom: 10px;
+}
+.main-description{
+  max-width: 458px;
+  font-size: 14px;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.button{
+  border-radius: 8px;
+  background-color:$default-secondary-color;
+  outline: none;
+  border:none;
+  padding: 22px 72px;
 }
