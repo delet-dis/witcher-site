@@ -1,4 +1,5 @@
 include ../blocks/header/header
+include ../blocks/main/main
 doctype html
 html(lang='ru')
   head
@@ -7,7 +8,8 @@ html(lang='ru')
     content='width=device-width, inital-scale=1.0')
     link(rel="stylesheet" href="./index.scss")
     include ../fonts/fonts.html
-    title The witcher
+    title The Witcher
   body
     .container
       +header
+    +main

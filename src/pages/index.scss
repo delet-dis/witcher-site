@@ -1,6 +1,8 @@
 @import "../colors/colors.scss";
 @import "../blocks/header/header.scss";
 @import "../fonts/fonts.scss";
+@include fonts;
+@import "../blocks/main/main.scss";
 * {
   box-sizing: border-box;
   margin:0;
