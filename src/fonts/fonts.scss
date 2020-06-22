@@ -8,3 +8,12 @@
     color: $default-text-color;
   }
 }
+
+@font-face{
+  font-family: 'MasonChronicles';
+  src: url('../fonts/MasonChronicles/MasonChronicles.ttf') format('truetype'),
+       url('../fonts/MasonChronicles/MasonChronicles.woff') format('woff'),
+       url('../fonts/MasonChronicles/MasonChronicles.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
