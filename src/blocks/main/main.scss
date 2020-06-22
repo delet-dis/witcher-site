@@ -1,1 +1,6 @@
 @import "./__content/main__content.scss";
+@import "./__play/main__play.scss";
+.main-content{
+  display: flex;
+  align-items: center;
+}
