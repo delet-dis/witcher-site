@@ -9,10 +9,14 @@ html(lang='ru')
     content='width=device-width, inital-scale=1.0')
     link(rel="stylesheet" href="./index.scss")
     script(type="text/javascript", src="../scripts/jquery/jquery-in-parcel.js")
+    script(src="index.js")
     include ../fonts/fonts.html
+    include ../scripts/layouts
+    include ../scripts/scripts
     title The Witcher
   body
     .container
       +header
     +main
     +footer
+    
