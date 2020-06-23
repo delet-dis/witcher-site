@@ -13,6 +13,9 @@ body{
   background-color: $default-background;
   min-height: 100vh;
   width: 100%;
+  background-image: url("../blocks/main/main__background.jpg");
+  background-repeat: no-repeat;
+  background-position: top right 20%;
 }
 .container{
   max-width: 1140px;
