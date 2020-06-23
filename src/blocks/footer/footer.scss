@@ -1,2 +1,13 @@
 @import "./__left/footer__left.scss";
 @import "./__right/footer__right.scss";
+.footer{
+  background-color: $default-background;
+  padding: 20px 0;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

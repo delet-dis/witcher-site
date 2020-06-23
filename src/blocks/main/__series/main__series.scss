@@ -3,6 +3,7 @@
 .series{
   display: flex;
   align-items: center;
+  margin-bottom: 60px;
 }
 .series-1{
   background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-1.jpg") no-repeat center;
