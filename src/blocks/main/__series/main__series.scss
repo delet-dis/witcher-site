@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 60px;
+  position: relative;
+  max-width: 420px;
 }
 .series-1{
   background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-1.jpg") no-repeat center;
@@ -12,4 +14,8 @@
 .series-2{
   background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-2.jpg") no-repeat center;
   background-size: cover;
+}
+.swiper-container{
+  max-width: 420px;
+  margin-left: 0!important;
 }

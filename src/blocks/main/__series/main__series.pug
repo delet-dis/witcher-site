@@ -1,12 +1,11 @@
 include ./-card/main__series-card
 include ./-navigation/main__series-navigation
 mixin series
-   div.swiper-container
-      div.swiper-wrapper
-         div.swiper-slide
-            +series-card('series-1','Серия #1', 'Начало конца')
-         div.swiper-slide
-            +series-card('series-2','Серия #2', 'Четыре знака')
-         div.swiper-slide
-            +series-card('series-3','Серия #3', 'Три знака')
-      div.swiper-button-next
+   .series
+      div.swiper-container
+         div.swiper-wrapper
+            div.swiper-slide
+               +series-card('series-1','Серия #1', 'Начало конца')
+            div.swiper-slide
+               +series-card('series-2','Серия #2', 'Четыре знака')
+      +navigation
