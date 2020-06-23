@@ -1,6 +1,8 @@
 @import "./-card/main__series-card.scss";
+@import "./-navigation/main__series-navigation.scss";
 .series{
   display: flex;
+  align-items: center;
 }
 .series-1{
   background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-1.jpg") no-repeat center;
