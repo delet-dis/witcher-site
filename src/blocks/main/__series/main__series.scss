@@ -2,3 +2,11 @@
 .series{
   display: flex;
 }
+.series-1{
+  background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-1.jpg") no-repeat center;
+  background-size: cover;
+}
+.series-2{
+  background: $card-gradient, url("../blocks/main/__series/-card/__images/card__image-2.jpg") no-repeat center;
+  background-size: cover;
+}
