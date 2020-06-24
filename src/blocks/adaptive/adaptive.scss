@@ -44,6 +44,7 @@
     }
   }
   .header{
+    display: none;
     position: absolute;
     right: 0;
     top: 0;
@@ -51,6 +52,9 @@
     background-color: $default-secondary-color;
     flex-direction: column;
     padding-bottom: 40px;
+  }
+  .header-active{
+    display: flex;
   }
   .logo{
     margin-bottom: 25px;
