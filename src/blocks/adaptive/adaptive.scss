@@ -10,7 +10,17 @@
     display: block;
     margin-bottom: 8px;
   }
-  .footer-link::first-child{
+  .footer-link:first-child{
     margin-left: 0;
+  }
+}
+@media (max-width:540px) {
+  .menu-button{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: $default-text-color;
+    margin-top: 40px;
+    margin-right: 35px;
   }
 }

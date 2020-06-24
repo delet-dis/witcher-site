@@ -4,6 +4,7 @@
 @include fonts;
 @import "../blocks/main/main.scss";
 @import "../blocks/footer/footer.scss";
+@import "../blocks/menu-button/menu-button.scss";
 @import "../blocks/adaptive/adaptive.scss";
 * {
   box-sizing: border-box;
@@ -17,6 +18,9 @@ body{
   background-image: url("../blocks/main/main__background.jpg");
   background-repeat: no-repeat;
   background-position: top right 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .container{
   width: 95%;
