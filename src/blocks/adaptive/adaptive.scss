@@ -28,6 +28,7 @@
     margin-right: 35px;
     border: none;
     outline: none;
+    cursor: pointer;
     &::before,
     &::after{
       content:"";
@@ -35,12 +36,25 @@
       width: 30px;
       height: 2px;
       background-color: $default-text-color;
+      transition: 0.2s;
     }
     &::before{
       margin-top: -7px;
     }
     &::after{
       margin-top: 13px;
+    }
+  }
+  .menu-button-active{
+    
+    height: 0;
+    &::before{
+      transform:rotate(45deg);
+      margin-top: 0;
+    }
+    &::after{
+      transform:rotate(-45deg);
+      margin-top: -2px;
     }
   }
   .header{
