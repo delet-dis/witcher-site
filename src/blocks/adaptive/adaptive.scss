@@ -15,7 +15,7 @@
   }
 }
 
-@media(max-width:540px){
+@media(max-width:540px), (pointer:coarse){
   .menu-button{
     display: block;
     position: absolute;
@@ -101,6 +101,6 @@
   }
   .main-title{
     font-size: 56px;
-    
+
   }
 }
