@@ -1,4 +1,4 @@
-@media (max-width:760px){
+@media (max-width:760px) {
   .play{
     display: none;
   }
@@ -14,13 +14,39 @@
     margin-left: 0;
   }
 }
-@media (max-width:540px) {
+
+@media(max-width:540px){
   .menu-button{
     display: block;
+    position: absolute;
+    top:0;
+    right: 0;
     width: 30px;
     height: 2px;
     background-color: $default-text-color;
     margin-top: 40px;
     margin-right: 35px;
+    border: none;
+    outline: none;
+    &::before,
+    &::after{
+      content:"";
+      display: block;
+      width: 30px;
+      height: 2px;
+      background-color: $default-text-color;
+    }
+    &::before{
+      margin-top: -7px;
+    }
+    &::after{
+      margin-top: 13px;
+    }
+  }
+  .header{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: $default-secondary-color;
   }
 }
