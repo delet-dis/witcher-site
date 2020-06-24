@@ -47,6 +47,35 @@
     position: absolute;
     right: 0;
     top: 0;
+    width: 250px;
     background-color: $default-secondary-color;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .logo{
+    margin-bottom: 25px;
+  }
+  .menu-list{
+    margin: auto;
+  }
+  .menu-link{
+    margin-right: 0;
+    margin-bottom: 17px;
+  }
+  .social-link:first-child{
+    margin-left: 0;
+  }
+  .social{
+    order:1;
+    margin-bottom: 22px;
+  }
+  .menu-list{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .swiper-container{
+    width: 80%;
   }
 }
