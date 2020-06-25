@@ -1,7 +1,8 @@
 include ./-rating/main__content-rating
 mixin content
-  span.genre 2019, фэнтези
-  +content-rating
-  h1.main-title Ведьмак
-  p.main-description Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс. 
-  button(data-fancybox href="https://www.youtube.com/watch?v=mlO1YaqXLqw").button Смотреть онлайн
+  div.content-wrapper(class="animate__animated animate__fadeInLeft")
+    span.genre 2019, фэнтези
+    +content-rating
+    h1.main-title Ведьмак
+    p.main-description Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс. 
+    button(data-fancybox href="https://www.youtube.com/watch?v=mlO1YaqXLqw&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0").button Смотреть трейлер
